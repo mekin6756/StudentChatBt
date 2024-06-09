@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6",
+      "DOM"
+    ],
+    "baseUrl": "/",
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*",
+    "node_modules/**/*",
+  ]
+}
