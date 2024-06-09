@@ -1,0 +1,35 @@
+id,date,subjectId,semester,duration,title
+,2/26/2024 10:30,1,1,2,Semiconductor Physics
+,2/26/2024 10:30,2,1,2,Programming for Problem Solving
+,2/26/2024 10:30,3,1,1,Advanced Calculus
+,2/26/2024 14:00,4,1,1,Environmental science
+,2/26/2024 15:00,5,1,1,Advanced Calculus
+,2/26/2024 16:00,6,1,1,Basic Electrical Engineering
+,2/27/2024 10:30,7,1,2,Computer Workshop
+,2/27/2024 10:30,1,1,2,Semiconductor Physics
+,2/27/2024 10:30,2,1,2,Programming for Problem Solving
+,2/27/2024 14:00,8,1,1,Semiconductor Physics
+,2/27/2024 15:00,5,1,1,Advanced Calculus
+,2/27/2024 16:00,9,1,2,Basic Electrical Engineering
+,2/27/2024 16:00,7,1,2,Computer Workshop
+,2/28/2024 10:30,7,1,2,Computer Workshop
+,2/28/2024 10:30,9,1,2,Basic Electrical Engineering
+,2/28/2024 10:30,8,1,2,Semiconductor Physics
+,2/28/2024 10:30,2,1,2,Programming for Problem Solving
+,2/28/2024 14:00,10,1,1,Programming for Problem Solving
+,2/28/2024 15:00,5,1,1,Advanced Calculus
+,2/28/2024 16:00,9,1,2,Basic Electrical Engineering
+,2/28/2024 16:00,7,1,2,Computer Workshop
+,2/28/2024 16:00,3,1,1,Advanced Calculus
+,2/28/2024 16:00,3,1,1,Advanced Calculus
+,2/29/2024 10:30,6,1,1,Basic Electrical Engineering
+,2/29/2024 11:30,10,1,1,Programming for Problem Solving
+,2/29/2024 12:30,4,1,1,Environmental science
+,2/29/2024 14:00,2,1,2,Programming for Problem Solving
+,2/29/2024 16:00,8,1,1,Semiconductor Physics
+,03/01/2024 10:30,8,1,1,Semiconductor Physics
+,03/01/2024 11:30,6,1,1,Basic Electrical Engineering
+,03/01/2024 12:30,10,1,1,Programming for Problem Solving
+,03/01/2024 14:00,1,1,2,Semiconductor Physics
+,03/01/2024 14:00,9,1,2,Basic Electrical Engineering
+,03/01/2024 14:00,3,1,1,Advanced Calculus

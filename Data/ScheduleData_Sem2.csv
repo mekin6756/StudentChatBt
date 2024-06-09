@@ -1,0 +1,35 @@
+id,date,subject,semester,duration,title
+,2/26/2024 10:30,11,2,2,Introduction to Web Programming
+,2/26/2024 10:30,12,2,2,Engineering Graphics and Design
+,2/26/2024 10:30,13,2,2,Basic of Manufacturing Practises
+,2/26/2024 14:00,14,2,1,Engineering Graphics and Design
+,2/26/2024 15:00,15,2,1,Linear Algebra And Fourier Series
+,2/26/2024 16:00,16,2,2,Basic Electronics
+,2/26/2024 16:00,11,2,2,Introduction to Web Programming
+,2/27/2024 10:30,12,2,2,Engineering Graphics and Design
+,2/27/2024 10:30,13,2,2,Basic of Manufacturing Practises
+,2/27/2024 10:30,17,2,1,Linear Algebra And Fourier Series
+,2/27/2024 14:00,18,2,1,English
+,2/27/2024 15:00,15,2,1,Linear Algebra And Fourier Series
+,2/27/2024 16:00,19,2,1,Basic Electronics
+,2/28/2024 10:30,19,2,1,Basic Electronics
+,2/28/2024 11:30,15,2,1,Basic of Manufacturing Practises
+,2/28/2024 12:30,18,2,1,English
+,2/28/2024 14:00,13,2,2,Basic of Manufacturing Practises
+,2/28/2024 16:00,14,2,1,Engineering Graphics and Design
+,2/29/2024 10:30,11,2,2,Introduction to Web Programming
+,2/29/2024 10:30,16,2,2,Basic Electronics
+,2/29/2024 10:30,12,2,2,Engineering Graphics and Design
+,2/29/2024 10:30,13,2,2,Basic of Manufacturing Practises
+,2/29/2024 14:00,20,2,1,Basic of Manufacturing Practises
+,2/29/2024 15:00,15,2,1,Linear Algebra And Fourier Series
+,2/29/2024 16:00,16,2,2,Basic Electronics
+,2/29/2024 16:00,11,2,2,Introduction to Web Programming
+,2/29/2024 16:00,17,2,1,Linear Algebra And Fourier Series
+,2/29/2024 16:00,17,2,1,Linear Algebra And Fourier Series
+,03/01/2024 10:30,14,2,1,Engineering Graphics and Design
+,03/01/2024 11:30,19,2,1,Basic Electronics
+,03/01/2024 12:30,20,2,1,Basic of Manufacturing Practises
+,03/01/2024 14:00,12,2,2,Engineering Graphics and Design
+,03/01/2024 14:00,16,2,2,Basic Electronics
+,03/01/2024 14:00,17,2,1,Linear Algebra And Fourier Series
