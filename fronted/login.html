@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" />
+    <title>Student Chatbot</title>
+    <script defer="defer" src="/static/js/main.ec94980c.js"></script>
+    <link href="login.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="root">
+        <nav class="nav-bar">
+            <div class="nav-links"><a href="/">Home</a></div>
+            <div class="nav-buttons"><button class="btn"><a href="./login.html" style="color: white;">log
+                        in</a></button><button class="btn"><a href="./signup.html" style="color: white;">sign
+                        up</a></button></div>
+        </nav>
+        <div class="form-div">
+            <form class="form">
+                <h2>Choose Your Type</h2>
+                <div class="users">
+                    <div class="user-box" onclick="selectUser('student')">
+                        <img id="student-logo" src="./images/student.png" alt="Student Image">
+                        <h3>STUDENTS</h3>
+
+                        <div id="student-icon" class="selected-user" style="opacity: 1; transform: none;"><svg
+                                stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                color="#faf9f6" height="40" width="40" xmlns="http://www.w3.org/2000/svg"
+                                style="color: rgb(250, 249, 246);">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="user-box" onclick="selectUser('faculty')">
+                        <img src="./images/teacher.png">
+                        <h3>FACULTY</h3>
+                        <div id="faculty-icon" class="selected-user" style="display: none;">
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16"
+                                color="#faf9f6" height="40" width="40" xmlns="http://www.w3.org/2000/svg"
+                                style="color: rgb(250, 249, 246);">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+                <h3 class="desc" id="userTypeDesc">Hello Students! Please login to get started</h3>
+
+                <div class="input-box" onclick="this.classList.add('focused')">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                        width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm0 18H4V8h16v12zm-6-5h-4v-1h4v1zm0-3h-4V9h4v3z" />
+                    </svg>
+                    <input type="text" required="" value=""><span>ID NO</span>
+                </div>
+                <div class="passInput-box" onclick="this.classList.add('focused')">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                        color="rgba(0, 0, 0, 0.75)" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                        style="color: rgba(0, 0, 0, 0.75);">
+                        <path
+                            d="M832 464h-68V240c0-70.7-57.3-128-128-128H388c-70.7 0-128 57.3-128 128v224h-68c-17.7 0-32 14.3-32 32v384c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V496c0-17.7-14.3-32-32-32zM540 701v53c0 4.4-3.6 8-8 8h-40c-4.4 0-8-3.6-8-8v-53a48.01 48.01 0 1 1 56 0zm152-237H332V240c0-30.9 25.1-56 56-56h248c30.9 0 56 25.1 56 56v224z">
+                        </path>
+                    </svg><input type="password" required="" value=""><span>Password</span>
+                    <div class="pass-icon">
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 9a3.02 3.02 0 0 0-3 3c0 1.642 1.358 3 3 3 1.641 0 3-1.358 3-3 0-1.641-1.359-3-3-3z">
+                            </path>
+                            <path
+                                d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316-.105-.316C21.927 11.617 19.633 5 12 5zm0 12c-5.351 0-7.424-3.846-7.926-5C4.578 10.842 6.652 7 12 7c5.351 0 7.424 3.846 7.926 5-.504 1.158-2.578 5-7.926 5z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+
+
+                <div class=" links">
+                    <div class="button-container"><button type="submit" class="btn">Login</button></div>
+                    <div><span>No account? </span><a class="link" href="./signup.html">Create new account</a>
+                    </div>
+                    <div>
+                        <button class="guest-btn">Continue as Guest</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./login.js"></script>
+
+
+
+</body>
+
+</html>
